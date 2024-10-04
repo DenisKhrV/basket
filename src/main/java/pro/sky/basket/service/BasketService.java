@@ -9,7 +9,7 @@ import java.util.Map;
 @Service
 public class BasketService {
     private final Basket basket;
-
+    int a = 1;
     public BasketService(Basket basket) {
         this.basket = basket;
     }
